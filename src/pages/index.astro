@@ -1,21 +1,22 @@
 ---
 import Layout from "./_components/Layout.astro";
 import ResponsiveCard from "./_components/ResponsiveCard.astro";
+import products from "./products";
 ---
 
 <Layout>
   <div class="max-w-sm @container">
-    <ResponsiveCard src="dog-jacket" alt="Dog Jacket" active>
+    <ResponsiveCard src={products[0].src} alt="Dog Jacket" active>
       <h1 class="text-md @lg:text-3xl font-bold">Dog Jacket</h1>
     </ResponsiveCard>
   </div>
   <div class="max-w-lg @container mt-5">
-    <ResponsiveCard src="dog-jacket" alt="Dog Jacket" active>
+    <ResponsiveCard src={products[0].src} alt="Dog Jacket" active>
       <h1 class="text-md @lg:text-3xl font-bold">Dog Jacket</h1>
     </ResponsiveCard>
   </div>
   <div class="@container mt-5">
-    <ResponsiveCard src="dog-jacket" alt="Dog Jacket" active>
+    <ResponsiveCard src={products[0].src} alt="Dog Jacket" active>
       <h1 class="text-md @lg:text-3xl font-bold">Dog Jacket</h1>
     </ResponsiveCard>
   </div>
