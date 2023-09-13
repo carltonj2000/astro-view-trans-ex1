@@ -5,23 +5,23 @@ export default [
     src: "dog-jacket",
   },
   {
-    id: "steampunk-controller",
-    name: "Steampunk Controller",
-    src: "blue-period/steampunk-controller",
+    id: "controller",
+    name: "Controller",
+    src: "controller",
   },
   {
     id: "bass-guitar",
     name: "Bass Guitar",
-    src: "blue-period/bass",
+    src: "bass",
   },
   {
-    id: "futuristic-car",
-    name: "Futuristic Car",
-    src: "blue-period/car",
+    id: "car",
+    name: "Car",
+    src: "car",
   },
   {
     id: "dirigible",
-    name: "Steampunk Dirigible",
-    src: "blue-period/dirigible",
+    name: "Dirigible",
+    src: "dirigible",
   },
 ];
