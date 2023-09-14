@@ -13,6 +13,7 @@ npm create astro@latest
 cd /renderws/carltonData/cj2023/code/astro/astro-view-trans-ex1/
 npx astro add tailwind
 npm install @tailwindcss/container-queries
+npm add open-props
 ```
 
 ## Photos

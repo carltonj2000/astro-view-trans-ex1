@@ -21,6 +21,7 @@ const selectedProduct = products.find(({ id }) => id === selectedId);
             class={`p-1 w-full ${
               navOnSide ? "" : "@md:w-1/2 @3xl:w-1/4"
             } @container`}
+            style={{ viewTransitionName: `products-${id}` }}
           >
             <a href={`/${pagePrefix}/${id}`}>
               <ResponsiveCard src={src} alt={name}>
